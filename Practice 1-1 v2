@@ -566,7 +566,7 @@ def sitesearch (parslink, soup):
             "weight": weight ,
             "length": length ,
             "width": width ,
-            "isCatalog": isCatalog
+            "is_catalog": isCatalog
         }
     }
     print(height)
