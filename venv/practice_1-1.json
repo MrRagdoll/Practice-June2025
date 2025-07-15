@@ -6,7 +6,7 @@
             "weight": 50.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -16,7 +16,7 @@
             "weight": null,
             "length": 120.0,
             "width": 80.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -26,7 +26,7 @@
             "weight": 6.0,
             "length": 100.0,
             "width": 100.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -36,7 +36,7 @@
             "weight": 0.21,
             "length": 14.5,
             "width": 13.5,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -46,7 +46,7 @@
             "weight": 0.85,
             "length": 4.1,
             "width": 4.1,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -56,7 +56,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -66,7 +66,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -76,7 +76,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -86,7 +86,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -96,7 +96,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -106,7 +106,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -116,7 +116,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -126,7 +126,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -136,7 +136,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -146,7 +146,7 @@
             "weight": null,
             "length": 28.0,
             "width": 4.4,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -156,7 +156,7 @@
             "weight": null,
             "length": 1.8,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -166,7 +166,7 @@
             "weight": null,
             "length": 1.8,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -176,7 +176,7 @@
             "weight": null,
             "length": 1.8,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -186,7 +186,7 @@
             "weight": null,
             "length": 12.7,
             "width": 6.891,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -196,7 +196,7 @@
             "weight": 0.07,
             "length": 10.0,
             "width": 6.985,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -206,7 +206,7 @@
             "weight": 0.08,
             "length": 8.0,
             "width": 2.2,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -216,7 +216,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -226,7 +226,7 @@
             "weight": 0.21,
             "length": 20.0,
             "width": 5.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -236,7 +236,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -246,7 +246,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -256,7 +256,7 @@
             "weight": 3.776,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -266,7 +266,7 @@
             "weight": 0.133,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -276,7 +276,7 @@
             "weight": null,
             "length": 0.7,
             "width": 1.4,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -286,7 +286,7 @@
             "weight": 1.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -296,7 +296,7 @@
             "weight": 300.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -306,7 +306,7 @@
             "weight": null,
             "length": 7.0,
             "width": 0.48,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -316,7 +316,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -326,7 +326,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -336,7 +336,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -346,7 +346,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -356,7 +356,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -366,7 +366,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -376,7 +376,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -386,7 +386,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -396,7 +396,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -406,7 +406,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -416,7 +416,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -426,7 +426,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -436,7 +436,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -446,7 +446,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -456,7 +456,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -466,7 +466,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -476,7 +476,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -486,7 +486,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -496,7 +496,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -506,7 +506,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -516,7 +516,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -526,7 +526,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -536,7 +536,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -546,7 +546,7 @@
             "weight": null,
             "length": null,
             "width": 38.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -556,7 +556,7 @@
             "weight": null,
             "length": 20.0,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -566,7 +566,7 @@
             "weight": 18.0,
             "length": null,
             "width": 10.8,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -576,7 +576,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -586,7 +586,7 @@
             "weight": 9.0,
             "length": 1.5,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -596,7 +596,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -606,7 +606,7 @@
             "weight": 50.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -616,7 +616,7 @@
             "weight": 0.1,
             "length": 300.0,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -626,7 +626,7 @@
             "weight": null,
             "length": 5000.0,
             "width": 5.2,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -636,7 +636,7 @@
             "weight": null,
             "length": 200.0,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -646,7 +646,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -656,7 +656,7 @@
             "weight": 0.058,
             "length": 10.0,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -666,7 +666,7 @@
             "weight": 0.18,
             "length": 16.0,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -676,7 +676,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -686,7 +686,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -696,7 +696,7 @@
             "weight": null,
             "length": 17.5,
             "width": 11.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -706,7 +706,7 @@
             "weight": null,
             "length": 14.0,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -716,7 +716,7 @@
             "weight": null,
             "length": 21.0,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -726,7 +726,7 @@
             "weight": 0.0006,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -736,7 +736,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -746,7 +746,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -756,7 +756,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -766,7 +766,7 @@
             "weight": null,
             "length": 279.2,
             "width": 45.8,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -776,7 +776,7 @@
             "weight": 1.23,
             "length": 143.0,
             "width": 12.5,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -786,7 +786,7 @@
             "weight": 13.0,
             "length": 279.2,
             "width": 45.8,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -796,7 +796,7 @@
             "weight": 0.435,
             "length": 17.1,
             "width": 14.6,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -806,7 +806,7 @@
             "weight": 0.37,
             "length": 70.0,
             "width": 36.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -816,7 +816,7 @@
             "weight": 13.5,
             "length": 142.0,
             "width": 58.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -826,7 +826,7 @@
             "weight": 0.29,
             "length": 60.0,
             "width": 5.5,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -836,7 +836,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -846,7 +846,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -856,7 +856,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -866,7 +866,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -876,7 +876,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -886,7 +886,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -896,7 +896,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -906,7 +906,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -916,7 +916,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -926,7 +926,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -936,7 +936,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -946,7 +946,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -956,7 +956,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -966,7 +966,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -976,7 +976,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -986,7 +986,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -996,7 +996,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -1006,7 +1006,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -1016,7 +1016,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -1026,7 +1026,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -1036,7 +1036,7 @@
             "weight": 1.0,
             "length": 0.1,
             "width": 0.1,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1046,7 +1046,7 @@
             "weight": 2.0,
             "length": 0.2,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1056,7 +1056,7 @@
             "weight": 1.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1066,7 +1066,7 @@
             "weight": 6.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1076,7 +1076,7 @@
             "weight": 18.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1086,7 +1086,7 @@
             "weight": 700.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1096,7 +1096,7 @@
             "weight": 4.0,
             "length": 3.0,
             "width": 430.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1106,7 +1106,7 @@
             "weight": 11.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1116,7 +1116,7 @@
             "weight": 12.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1126,7 +1126,7 @@
             "weight": 12.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1136,7 +1136,7 @@
             "weight": 11.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1146,7 +1146,7 @@
             "weight": 11.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1156,7 +1156,7 @@
             "weight": null,
             "length": null,
             "width": 0.6,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1166,7 +1166,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1176,7 +1176,7 @@
             "weight": 1.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1186,7 +1186,7 @@
             "weight": 4.0,
             "length": null,
             "width": 13.7,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1196,7 +1196,7 @@
             "weight": 2.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1206,7 +1206,7 @@
             "weight": 2.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1216,7 +1216,7 @@
             "weight": 2.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1226,7 +1226,7 @@
             "weight": 1.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1236,7 +1236,7 @@
             "weight": 2.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1246,7 +1246,7 @@
             "weight": 2.0,
             "length": 0.9,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1256,7 +1256,7 @@
             "weight": 2.0,
             "length": 162.0,
             "width": 3.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1266,7 +1266,7 @@
             "weight": 2.0,
             "length": 10.0,
             "width": 100.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1276,7 +1276,7 @@
             "weight": 1.0,
             "length": 0.2,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1286,7 +1286,7 @@
             "weight": 2.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1296,7 +1296,7 @@
             "weight": 1.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1306,7 +1306,7 @@
             "weight": null,
             "length": 426.4,
             "width": 413.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1316,7 +1316,7 @@
             "weight": 400.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1326,7 +1326,7 @@
             "weight": 400.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1336,7 +1336,7 @@
             "weight": 400.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1346,7 +1346,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1356,7 +1356,7 @@
             "weight": 10.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1366,7 +1366,7 @@
             "weight": 0.0,
             "length": 9.0,
             "width": 4.5,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1376,7 +1376,7 @@
             "weight": 0.0,
             "length": 300.0,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1386,7 +1386,7 @@
             "weight": 1.5,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1396,7 +1396,7 @@
             "weight": 61697.0,
             "length": 6169.7,
             "width": 6169.7,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1406,7 +1406,7 @@
             "weight": 1.0,
             "length": 1.6,
             "width": 1.6,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1416,7 +1416,7 @@
             "weight": null,
             "length": 25.0,
             "width": 25.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1426,7 +1426,7 @@
             "weight": 12.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1436,7 +1436,7 @@
             "weight": 460.0,
             "length": null,
             "width": 5.7,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1446,7 +1446,7 @@
             "weight": null,
             "length": null,
             "width": 10.4,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1456,7 +1456,7 @@
             "weight": 900.0,
             "length": 90.0,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1466,7 +1466,7 @@
             "weight": 3.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1476,7 +1476,7 @@
             "weight": 3.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1486,7 +1486,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1496,7 +1496,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1506,7 +1506,7 @@
             "weight": 1.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1516,7 +1516,7 @@
             "weight": 1.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1526,7 +1526,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1536,7 +1536,7 @@
             "weight": 4.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1546,7 +1546,7 @@
             "weight": 4.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1556,7 +1556,7 @@
             "weight": 1.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1566,7 +1566,7 @@
             "weight": 1.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1576,7 +1576,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1586,7 +1586,7 @@
             "weight": 4.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1596,7 +1596,7 @@
             "weight": 3.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1606,7 +1606,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1616,7 +1616,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1626,7 +1626,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1636,7 +1636,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1646,7 +1646,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1656,7 +1656,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1666,7 +1666,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1676,7 +1676,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1686,7 +1686,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1696,7 +1696,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1706,7 +1706,7 @@
             "weight": 3015.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1716,7 +1716,7 @@
             "weight": 3015.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1726,7 +1726,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1736,7 +1736,7 @@
             "weight": 260.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1746,7 +1746,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1756,7 +1756,7 @@
             "weight": 1.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1766,7 +1766,7 @@
             "weight": 1.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1776,7 +1776,7 @@
             "weight": 1.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1786,7 +1786,7 @@
             "weight": 1.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1796,7 +1796,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1806,7 +1806,7 @@
             "weight": 1.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1816,7 +1816,7 @@
             "weight": 1.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1826,7 +1826,7 @@
             "weight": 1.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1836,7 +1836,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1846,7 +1846,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1856,7 +1856,7 @@
             "weight": 4.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1866,7 +1866,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1876,7 +1876,7 @@
             "weight": 4.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1886,7 +1886,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1896,7 +1896,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1906,7 +1906,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1916,7 +1916,7 @@
             "weight": 4.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1926,7 +1926,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1936,7 +1936,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1946,7 +1946,7 @@
             "weight": 2.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1956,7 +1956,7 @@
             "weight": 26.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1966,7 +1966,7 @@
             "weight": 26.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1976,7 +1976,7 @@
             "weight": 1.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1986,7 +1986,7 @@
             "weight": 8.0,
             "length": 20.0,
             "width": 17.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -1996,7 +1996,7 @@
             "weight": 2.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2006,7 +2006,7 @@
             "weight": 200.0,
             "length": null,
             "width": 6.6,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2016,7 +2016,7 @@
             "weight": 305.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2026,7 +2026,7 @@
             "weight": 2.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2036,7 +2036,7 @@
             "weight": 15.0,
             "length": 10.0,
             "width": 1.5,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2046,7 +2046,7 @@
             "weight": 1.0,
             "length": null,
             "width": 0.1,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2056,7 +2056,7 @@
             "weight": null,
             "length": 52.4,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2066,7 +2066,7 @@
             "weight": null,
             "length": 0.2,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2076,7 +2076,7 @@
             "weight": 265.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2086,7 +2086,7 @@
             "weight": 0.0,
             "length": 2.2,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2096,7 +2096,7 @@
             "weight": 778.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2106,7 +2106,7 @@
             "weight": 2.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2116,7 +2116,7 @@
             "weight": 15.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2126,7 +2126,7 @@
             "weight": 1.0,
             "length": 37.0,
             "width": 12.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2136,7 +2136,7 @@
             "weight": null,
             "length": 3.0,
             "width": 11.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2146,7 +2146,7 @@
             "weight": null,
             "length": 19.0,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2156,7 +2156,7 @@
             "weight": null,
             "length": 0.1,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2166,7 +2166,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2176,7 +2176,7 @@
             "weight": 22.0,
             "length": null,
             "width": 57.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2186,7 +2186,7 @@
             "weight": null,
             "length": null,
             "width": 40.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2196,7 +2196,7 @@
             "weight": 300.0,
             "length": null,
             "width": 85.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2206,7 +2206,7 @@
             "weight": 22.0,
             "length": null,
             "width": 3.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2216,7 +2216,7 @@
             "weight": null,
             "length": null,
             "width": 240.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2226,7 +2226,7 @@
             "weight": null,
             "length": null,
             "width": 210.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2236,7 +2236,7 @@
             "weight": 27.0,
             "length": null,
             "width": 90.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2246,7 +2246,7 @@
             "weight": 19.0,
             "length": null,
             "width": 95.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2256,7 +2256,7 @@
             "weight": 47.0,
             "length": null,
             "width": 117.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2266,7 +2266,7 @@
             "weight": null,
             "length": null,
             "width": 165.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2276,7 +2276,7 @@
             "weight": null,
             "length": null,
             "width": 76.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2286,7 +2286,7 @@
             "weight": null,
             "length": null,
             "width": 166.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2296,7 +2296,7 @@
             "weight": null,
             "length": null,
             "width": 49.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2306,7 +2306,7 @@
             "weight": null,
             "length": null,
             "width": 160.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2316,7 +2316,7 @@
             "weight": null,
             "length": null,
             "width": 120.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2326,7 +2326,7 @@
             "weight": 54.0,
             "length": null,
             "width": 80.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2336,7 +2336,7 @@
             "weight": null,
             "length": null,
             "width": 96.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2346,7 +2346,7 @@
             "weight": 20.0,
             "length": null,
             "width": 50.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2356,7 +2356,7 @@
             "weight": 28.0,
             "length": 8.0,
             "width": 21.5,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2366,7 +2366,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2376,7 +2376,7 @@
             "weight": 6.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2386,7 +2386,7 @@
             "weight": 60.0,
             "length": 0.4,
             "width": 10.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2396,7 +2396,7 @@
             "weight": 10.0,
             "length": 122.0,
             "width": 34.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2406,7 +2406,7 @@
             "weight": 10.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2416,7 +2416,7 @@
             "weight": 5.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2426,7 +2426,7 @@
             "weight": 20.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2436,7 +2436,7 @@
             "weight": 2.5,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2446,7 +2446,7 @@
             "weight": 15.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2456,7 +2456,7 @@
             "weight": 2.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2466,7 +2466,7 @@
             "weight": 3.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2476,7 +2476,7 @@
             "weight": 1.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2486,7 +2486,7 @@
             "weight": 2.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2496,7 +2496,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2506,7 +2506,7 @@
             "weight": 8.0,
             "length": 7.8,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2516,7 +2516,7 @@
             "weight": 1.9,
             "length": 11.7,
             "width": 2.3,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2526,7 +2526,7 @@
             "weight": 3.0,
             "length": 0.5,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2536,7 +2536,7 @@
             "weight": 7.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2546,7 +2546,7 @@
             "weight": 26.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2556,7 +2556,7 @@
             "weight": 173.0,
             "length": 17.3,
             "width": 6.1,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2566,7 +2566,7 @@
             "weight": 1.6,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2576,7 +2576,7 @@
             "weight": 0.0,
             "length": 1.1,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2586,7 +2586,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2596,7 +2596,7 @@
             "weight": 4.0,
             "length": 30.0,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2606,7 +2606,7 @@
             "weight": 5.0,
             "length": 200.0,
             "width": 100.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2616,7 +2616,7 @@
             "weight": 5.0,
             "length": 200.0,
             "width": 100.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2626,7 +2626,7 @@
             "weight": 5.0,
             "length": 20.0,
             "width": 10.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2636,7 +2636,7 @@
             "weight": 2.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2646,7 +2646,7 @@
             "weight": 702.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2656,7 +2656,7 @@
             "weight": 57.0,
             "length": null,
             "width": 0.3,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2666,7 +2666,7 @@
             "weight": 20.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2676,7 +2676,7 @@
             "weight": 25.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2686,7 +2686,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2696,7 +2696,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2706,7 +2706,7 @@
             "weight": 0.0,
             "length": 1.2,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2716,7 +2716,7 @@
             "weight": 0.0,
             "length": 2.0,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2726,7 +2726,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2736,7 +2736,7 @@
             "weight": 0.0,
             "length": 4.8,
             "width": 3.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2746,7 +2746,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2756,7 +2756,7 @@
             "weight": 0.0,
             "length": 0.75,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2766,7 +2766,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2776,7 +2776,7 @@
             "weight": 3.5,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2786,7 +2786,7 @@
             "weight": 4.0,
             "length": 95.0,
             "width": 10.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2796,7 +2796,7 @@
             "weight": 4.0,
             "length": 95.0,
             "width": 10.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2806,7 +2806,7 @@
             "weight": 3000.0,
             "length": 300.0,
             "width": 300.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2816,7 +2816,7 @@
             "weight": 18.0,
             "length": null,
             "width": 100.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2826,7 +2826,7 @@
             "weight": 100.0,
             "length": 6.7,
             "width": 2.8,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2836,7 +2836,7 @@
             "weight": 1.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2846,7 +2846,7 @@
             "weight": 14.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2856,7 +2856,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2866,7 +2866,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2876,7 +2876,7 @@
             "weight": 0.0,
             "length": 3.0,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2886,7 +2886,7 @@
             "weight": 2.0,
             "length": 6.7,
             "width": 5.8,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2896,7 +2896,7 @@
             "weight": 90.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2906,7 +2906,7 @@
             "weight": 45.0,
             "length": 35.0,
             "width": 0.3,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2916,7 +2916,7 @@
             "weight": 2.5,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2926,7 +2926,7 @@
             "weight": 50.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2936,7 +2936,7 @@
             "weight": 50.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2946,7 +2946,7 @@
             "weight": 50.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2956,7 +2956,7 @@
             "weight": 50.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2966,7 +2966,7 @@
             "weight": 50.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2976,7 +2976,7 @@
             "weight": 9.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2986,7 +2986,7 @@
             "weight": 0.0,
             "length": 28.0,
             "width": 28.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -2996,7 +2996,7 @@
             "weight": 22.0,
             "length": 51.0,
             "width": 57.6,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3006,7 +3006,7 @@
             "weight": 0.0,
             "length": null,
             "width": 6.5,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3016,7 +3016,7 @@
             "weight": 0.0,
             "length": null,
             "width": 11.5,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3026,7 +3026,7 @@
             "weight": 19171.0,
             "length": 90.0,
             "width": 40.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3036,7 +3036,7 @@
             "weight": 10.0,
             "length": 36.0,
             "width": 35.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3046,7 +3046,7 @@
             "weight": 5.0,
             "length": 31.0,
             "width": 33.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3056,7 +3056,7 @@
             "weight": 4.0,
             "length": 31.2,
             "width": 50.2,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3066,7 +3066,7 @@
             "weight": 10.0,
             "length": 76.0,
             "width": 0.5,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3076,7 +3076,7 @@
             "weight": 3.0,
             "length": 59.5,
             "width": 13.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3086,7 +3086,7 @@
             "weight": 32927.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3096,7 +3096,7 @@
             "weight": 0.0,
             "length": 18.0,
             "width": 29.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3106,7 +3106,7 @@
             "weight": 0.0,
             "length": 10.0,
             "width": 11.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3116,7 +3116,7 @@
             "weight": 0.0,
             "length": 2.7,
             "width": 1.5,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3126,7 +3126,7 @@
             "weight": 0.0,
             "length": null,
             "width": 20.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3136,7 +3136,7 @@
             "weight": 0.0,
             "length": 15.0,
             "width": 25.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3146,7 +3146,7 @@
             "weight": null,
             "length": 30.0,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3156,7 +3156,7 @@
             "weight": 0.0,
             "length": 15.2,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3166,7 +3166,7 @@
             "weight": 200.0,
             "length": 63.5,
             "width": 50.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3176,7 +3176,7 @@
             "weight": 0.0,
             "length": 14.0,
             "width": 22.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3186,7 +3186,7 @@
             "weight": 2.0,
             "length": 0.1,
             "width": 60.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3196,7 +3196,7 @@
             "weight": 0.0,
             "length": 24.0,
             "width": 11.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3206,7 +3206,7 @@
             "weight": 0.0,
             "length": null,
             "width": 35.8,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3216,7 +3216,7 @@
             "weight": 43.0,
             "length": 114.9,
             "width": 69.5,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3226,7 +3226,7 @@
             "weight": 0.0,
             "length": 15.0,
             "width": 1.5,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3236,7 +3236,7 @@
             "weight": 0.0,
             "length": 25.0,
             "width": 15.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3246,7 +3246,7 @@
             "weight": 4.0,
             "length": null,
             "width": 14.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3256,7 +3256,7 @@
             "weight": 8.0,
             "length": null,
             "width": 17.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3266,7 +3266,7 @@
             "weight": 1.0,
             "length": null,
             "width": 5.5,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3276,7 +3276,7 @@
             "weight": 16.0,
             "length": null,
             "width": 20.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3286,7 +3286,7 @@
             "weight": 0.0,
             "length": null,
             "width": 5.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3296,7 +3296,7 @@
             "weight": 0.0,
             "length": null,
             "width": 6.5,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3306,7 +3306,7 @@
             "weight": 0.0,
             "length": null,
             "width": 25.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3316,7 +3316,7 @@
             "weight": 0.0,
             "length": null,
             "width": 5.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3326,7 +3326,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3336,7 +3336,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3346,7 +3346,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3356,7 +3356,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3366,7 +3366,7 @@
             "weight": 0.0,
             "length": 19.0,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3376,7 +3376,7 @@
             "weight": 0.0,
             "length": 32.0,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3386,7 +3386,7 @@
             "weight": 0.0,
             "length": 19.0,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3396,7 +3396,7 @@
             "weight": 0.0,
             "length": 22.0,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3406,7 +3406,7 @@
             "weight": 0.0,
             "length": 30.0,
             "width": 7.5,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3416,7 +3416,7 @@
             "weight": 0.0,
             "length": 25.0,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3426,7 +3426,7 @@
             "weight": 0.0,
             "length": null,
             "width": 5.6,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3436,7 +3436,7 @@
             "weight": 0.0,
             "length": 26.0,
             "width": 0.6,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3446,7 +3446,7 @@
             "weight": 0.0,
             "length": 16.8,
             "width": 25.3,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3456,7 +3456,7 @@
             "weight": 0.0,
             "length": null,
             "width": 28.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3466,7 +3466,7 @@
             "weight": 0.0,
             "length": 10.0,
             "width": 3.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3476,7 +3476,7 @@
             "weight": 0.0,
             "length": 8.0,
             "width": 4.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3486,7 +3486,7 @@
             "weight": 0.0,
             "length": 3.8,
             "width": 3.5,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3496,7 +3496,7 @@
             "weight": 0.0,
             "length": 14.0,
             "width": 0.9,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3506,7 +3506,7 @@
             "weight": 0.0,
             "length": 30.0,
             "width": 4.9,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3516,7 +3516,7 @@
             "weight": 0.0,
             "length": 25.0,
             "width": 25.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3526,7 +3526,7 @@
             "weight": 0.0,
             "length": 12.0,
             "width": 12.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3536,7 +3536,7 @@
             "weight": 0.0,
             "length": null,
             "width": 22.2,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3546,7 +3546,7 @@
             "weight": 0.0,
             "length": 32.0,
             "width": 11.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3556,7 +3556,7 @@
             "weight": 1.0,
             "length": null,
             "width": 10.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3566,7 +3566,7 @@
             "weight": 9.0,
             "length": 75.0,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3576,7 +3576,7 @@
             "weight": 0.0,
             "length": null,
             "width": 7.5,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3586,7 +3586,7 @@
             "weight": 0.0,
             "length": 16.0,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3596,7 +3596,7 @@
             "weight": 2.0,
             "length": 90.0,
             "width": 3.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3606,7 +3606,7 @@
             "weight": 0.0,
             "length": 45.0,
             "width": 8.5,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3616,7 +3616,7 @@
             "weight": 0.0,
             "length": 0.8,
             "width": 1.1,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3626,7 +3626,7 @@
             "weight": 2.0,
             "length": 60.0,
             "width": 15.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3636,7 +3636,7 @@
             "weight": 2.0,
             "length": 275.0,
             "width": 0.1,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3646,7 +3646,7 @@
             "weight": 14.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3656,7 +3656,7 @@
             "weight": 6.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3666,7 +3666,7 @@
             "weight": 22.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3676,7 +3676,7 @@
             "weight": 4.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3686,7 +3686,7 @@
             "weight": 120.0,
             "length": 0.4,
             "width": 12.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3696,7 +3696,7 @@
             "weight": 2021.0,
             "length": 0.5,
             "width": 41.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3706,7 +3706,7 @@
             "weight": 10.0,
             "length": 0.3,
             "width": 33.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3716,7 +3716,7 @@
             "weight": 18178.0,
             "length": null,
             "width": 46.5,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3726,7 +3726,7 @@
             "weight": 0.0,
             "length": null,
             "width": 9.1,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3736,7 +3736,7 @@
             "weight": 11.0,
             "length": null,
             "width": 90.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3746,7 +3746,7 @@
             "weight": 15.0,
             "length": null,
             "width": 63.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3756,7 +3756,7 @@
             "weight": 11.0,
             "length": null,
             "width": 0.1,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3766,7 +3766,7 @@
             "weight": 35.0,
             "length": null,
             "width": 63.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3776,7 +3776,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3786,7 +3786,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3796,7 +3796,7 @@
             "weight": 39.0,
             "length": 2.0,
             "width": 80.5,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3806,7 +3806,7 @@
             "weight": 0.0,
             "length": null,
             "width": 0.9,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3816,7 +3816,7 @@
             "weight": 0.0,
             "length": null,
             "width": 10.5,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3826,7 +3826,7 @@
             "weight": 0.0,
             "length": null,
             "width": 15.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3836,7 +3836,7 @@
             "weight": 4.0,
             "length": null,
             "width": 31.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3846,7 +3846,7 @@
             "weight": 0.0,
             "length": 16.0,
             "width": 7.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3856,7 +3856,7 @@
             "weight": 0.0,
             "length": 13.0,
             "width": 8.5,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3866,7 +3866,7 @@
             "weight": 0.0,
             "length": null,
             "width": 5.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3876,7 +3876,7 @@
             "weight": 1.0,
             "length": 100.0,
             "width": 5.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3886,7 +3886,7 @@
             "weight": 13.0,
             "length": 56.8,
             "width": 66.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3896,7 +3896,7 @@
             "weight": 2.0,
             "length": null,
             "width": 72.2,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3906,7 +3906,7 @@
             "weight": 940.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3916,7 +3916,7 @@
             "weight": 8.0,
             "length": 0.2,
             "width": 72.2,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3926,7 +3926,7 @@
             "weight": 940.0,
             "length": 72.1,
             "width": 0.2,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3936,7 +3936,7 @@
             "weight": 940.0,
             "length": 72.1,
             "width": 0.2,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3946,7 +3946,7 @@
             "weight": 1.0,
             "length": 0.1,
             "width": 0.1,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3956,7 +3956,7 @@
             "weight": 1.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3966,7 +3966,7 @@
             "weight": 482.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3976,7 +3976,7 @@
             "weight": 10.0,
             "length": null,
             "width": 2.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3986,7 +3986,7 @@
             "weight": 8.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -3996,7 +3996,7 @@
             "weight": 17.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4006,7 +4006,7 @@
             "weight": 1.85,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4016,7 +4016,7 @@
             "weight": 5.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4026,7 +4026,7 @@
             "weight": 63.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4036,7 +4036,7 @@
             "weight": 3.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4046,7 +4046,7 @@
             "weight": 10.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4056,7 +4056,7 @@
             "weight": 10.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4066,7 +4066,7 @@
             "weight": null,
             "length": 0.18,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4076,7 +4076,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4086,7 +4086,7 @@
             "weight": 18.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4096,7 +4096,7 @@
             "weight": 6.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4106,7 +4106,7 @@
             "weight": 5.06,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4116,7 +4116,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4126,7 +4126,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4136,7 +4136,7 @@
             "weight": 1672.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4146,7 +4146,7 @@
             "weight": 17.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4156,7 +4156,7 @@
             "weight": 32289.0,
             "length": 3228.9,
             "width": 3228.9,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4166,7 +4166,7 @@
             "weight": 45.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4176,7 +4176,7 @@
             "weight": 970.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4186,7 +4186,7 @@
             "weight": 1.0,
             "length": 0.1,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4196,7 +4196,7 @@
             "weight": 2023.0,
             "length": 52.6,
             "width": 1.3,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4206,7 +4206,7 @@
             "weight": 90.0,
             "length": 1.9,
             "width": 1.9,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4216,7 +4216,7 @@
             "weight": 725.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4226,7 +4226,7 @@
             "weight": 2.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4236,7 +4236,7 @@
             "weight": 875.0,
             "length": null,
             "width": 2.9,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4246,7 +4246,7 @@
             "weight": 1.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4256,7 +4256,7 @@
             "weight": 1.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4266,7 +4266,7 @@
             "weight": 2.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4276,7 +4276,7 @@
             "weight": 200.0,
             "length": 202.3,
             "width": 202.3,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4286,7 +4286,7 @@
             "weight": 400.0,
             "length": 25.0,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4296,7 +4296,7 @@
             "weight": 100.0,
             "length": 0.3,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4306,7 +4306,7 @@
             "weight": 125.0,
             "length": 6.0,
             "width": 6.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4316,7 +4316,7 @@
             "weight": 195.0,
             "length": 0.7,
             "width": 0.7,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4326,7 +4326,7 @@
             "weight": 800.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4336,7 +4336,7 @@
             "weight": 1.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4346,7 +4346,7 @@
             "weight": 2023.0,
             "length": 3.2,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4356,7 +4356,7 @@
             "weight": 1.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4366,7 +4366,7 @@
             "weight": 75.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4376,7 +4376,7 @@
             "weight": 300.0,
             "length": 350.7,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4386,7 +4386,7 @@
             "weight": 4.5,
             "length": 19.0,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4396,7 +4396,7 @@
             "weight": 65.0,
             "length": 1.4,
             "width": 3.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4406,7 +4406,7 @@
             "weight": 2.0,
             "length": null,
             "width": 4.7,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4416,7 +4416,7 @@
             "weight": 2.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4426,7 +4426,7 @@
             "weight": 3.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4436,7 +4436,7 @@
             "weight": 800.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4446,7 +4446,7 @@
             "weight": 220.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4456,7 +4456,7 @@
             "weight": 40.0,
             "length": null,
             "width": 6.4,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4466,7 +4466,7 @@
             "weight": 215.0,
             "length": 2.0,
             "width": 2.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4476,7 +4476,7 @@
             "weight": 1.0,
             "length": 5.0,
             "width": 3144.5,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4486,7 +4486,7 @@
             "weight": 300.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4496,7 +4496,7 @@
             "weight": 225.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4506,7 +4506,7 @@
             "weight": 455.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4516,7 +4516,7 @@
             "weight": 95.0,
             "length": 65002.6,
             "width": 65002.6,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4526,7 +4526,7 @@
             "weight": 100.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4536,7 +4536,7 @@
             "weight": 1.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4546,7 +4546,7 @@
             "weight": 255.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4556,7 +4556,7 @@
             "weight": 55.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4566,7 +4566,7 @@
             "weight": 1.0,
             "length": null,
             "width": 1012080.4,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4576,7 +4576,7 @@
             "weight": 2024.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4586,7 +4586,7 @@
             "weight": 24.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4596,7 +4596,7 @@
             "weight": 2024.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4606,7 +4606,7 @@
             "weight": 225.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4616,7 +4616,7 @@
             "weight": 5.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4626,7 +4626,7 @@
             "weight": 2025.0,
             "length": 2181.9,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4636,7 +4636,7 @@
             "weight": 195.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4646,7 +4646,7 @@
             "weight": 1.0,
             "length": null,
             "width": 1.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4656,7 +4656,7 @@
             "weight": 1.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4666,7 +4666,7 @@
             "weight": 6.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4676,7 +4676,7 @@
             "weight": 0.32,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4686,7 +4686,7 @@
             "weight": 0.11,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4696,7 +4696,7 @@
             "weight": 0.12,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4706,7 +4706,7 @@
             "weight": 0.15,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4716,7 +4716,7 @@
             "weight": 0.12,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4726,7 +4726,7 @@
             "weight": 0.1,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4736,7 +4736,7 @@
             "weight": 0.13,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4746,7 +4746,7 @@
             "weight": 0.22,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4756,7 +4756,7 @@
             "weight": 0.15,
             "length": null,
             "width": 11.5,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4766,7 +4766,7 @@
             "weight": 0.15,
             "length": null,
             "width": 11.5,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4776,7 +4776,7 @@
             "weight": 0.35,
             "length": null,
             "width": 60.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4786,7 +4786,7 @@
             "weight": 0.32,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4796,7 +4796,7 @@
             "weight": 0.18,
             "length": 16.0,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4806,7 +4806,7 @@
             "weight": 0.03,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4816,7 +4816,7 @@
             "weight": 0.02,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4826,7 +4826,7 @@
             "weight": 0.06,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4836,7 +4836,7 @@
             "weight": 0.06,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4846,7 +4846,7 @@
             "weight": 0.1,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4856,7 +4856,7 @@
             "weight": 0.12,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4866,7 +4866,7 @@
             "weight": 0.17,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4876,7 +4876,7 @@
             "weight": 0.21,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4886,7 +4886,7 @@
             "weight": 0.23,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4896,7 +4896,7 @@
             "weight": 0.45,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4906,7 +4906,7 @@
             "weight": 0.13,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4916,7 +4916,7 @@
             "weight": 2.15,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4926,7 +4926,7 @@
             "weight": 1.3,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4936,7 +4936,7 @@
             "weight": 0.03,
             "length": 10.0,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4946,7 +4946,7 @@
             "weight": 0.04,
             "length": 15.0,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4956,7 +4956,7 @@
             "weight": 0.09,
             "length": 20.0,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4966,7 +4966,7 @@
             "weight": 0.2,
             "length": 35.0,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4976,7 +4976,7 @@
             "weight": 0.07,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4986,7 +4986,7 @@
             "weight": 0.04,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -4996,7 +4996,7 @@
             "weight": 10.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5006,7 +5006,7 @@
             "weight": 5.16,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5016,7 +5016,7 @@
             "weight": 5.25,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5026,7 +5026,7 @@
             "weight": 1.04,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5036,7 +5036,7 @@
             "weight": 0.27,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5046,7 +5046,7 @@
             "weight": 0.1,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5056,7 +5056,7 @@
             "weight": 1.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5066,7 +5066,7 @@
             "weight": 2.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5076,7 +5076,7 @@
             "weight": 3.57,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5086,7 +5086,7 @@
             "weight": 1.6,
             "length": null,
             "width": 29.8,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5096,7 +5096,7 @@
             "weight": 0.71,
             "length": null,
             "width": 20.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5106,7 +5106,7 @@
             "weight": 30.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5116,7 +5116,7 @@
             "weight": 50.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5126,7 +5126,7 @@
             "weight": 25.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5136,7 +5136,7 @@
             "weight": 25.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5146,7 +5146,7 @@
             "weight": 50.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5156,7 +5156,7 @@
             "weight": 20.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5166,7 +5166,7 @@
             "weight": 20.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5176,7 +5176,7 @@
             "weight": 4.1,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5186,7 +5186,7 @@
             "weight": 0.19,
             "length": 2.3,
             "width": 15.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5196,7 +5196,7 @@
             "weight": 20.3,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5206,7 +5206,7 @@
             "weight": 0.24,
             "length": 44.0,
             "width": 45.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5216,7 +5216,7 @@
             "weight": 47.7,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5226,7 +5226,7 @@
             "weight": 51.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5236,7 +5236,7 @@
             "weight": 1.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5246,7 +5246,7 @@
             "weight": 0.17,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5256,7 +5256,7 @@
             "weight": 19.23,
             "length": 244.0,
             "width": 122.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5266,7 +5266,7 @@
             "weight": 1.02,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5276,7 +5276,7 @@
             "weight": 1.0,
             "length": 5.0,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5286,7 +5286,7 @@
             "weight": 0.8,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5296,7 +5296,7 @@
             "weight": 0.07,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5306,7 +5306,7 @@
             "weight": 0.24,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5316,7 +5316,7 @@
             "weight": 0.08,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5326,7 +5326,7 @@
             "weight": 0.24,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5336,7 +5336,7 @@
             "weight": 0.27,
             "length": 20.0,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5346,7 +5346,7 @@
             "weight": 0.03,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5356,7 +5356,7 @@
             "weight": 0.45,
             "length": 20.0,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5366,7 +5366,7 @@
             "weight": 51.5,
             "length": 0.25,
             "width": 125.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5376,7 +5376,7 @@
             "weight": 0.25,
             "length": 14.0,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5386,7 +5386,7 @@
             "weight": 0.8,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5396,7 +5396,7 @@
             "weight": 0.05,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5406,7 +5406,7 @@
             "weight": 0.09,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5416,7 +5416,7 @@
             "weight": 27.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5426,7 +5426,7 @@
             "weight": 0.6,
             "length": 0.06,
             "width": 0.06,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5436,7 +5436,7 @@
             "weight": 24.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5446,7 +5446,7 @@
             "weight": 24.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5456,7 +5456,7 @@
             "weight": 0.14,
             "length": 0.3,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5466,7 +5466,7 @@
             "weight": 0.32,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5476,7 +5476,7 @@
             "weight": 0.8,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5486,7 +5486,7 @@
             "weight": 0.06,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5496,7 +5496,7 @@
             "weight": 0.06,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5506,7 +5506,7 @@
             "weight": 0.2,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5516,7 +5516,7 @@
             "weight": 0.41,
             "length": 5.0,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5526,7 +5526,7 @@
             "weight": 0.13,
             "length": 4.5,
             "width": 4.5,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5536,7 +5536,7 @@
             "weight": 0.27,
             "length": 4.5,
             "width": 10.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5546,7 +5546,7 @@
             "weight": 1.1,
             "length": 0.11,
             "width": 0.11,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5556,7 +5556,7 @@
             "weight": 0.12,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5566,7 +5566,7 @@
             "weight": 0.36,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5576,7 +5576,7 @@
             "weight": 0.11,
             "length": 32.0,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5586,7 +5586,7 @@
             "weight": 8.45,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5596,7 +5596,7 @@
             "weight": 29.08,
             "length": null,
             "width": 35.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5606,7 +5606,7 @@
             "weight": 0.17,
             "length": 0.017,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5616,7 +5616,7 @@
             "weight": 0.07,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5626,7 +5626,7 @@
             "weight": 2.0,
             "length": 229.9,
             "width": 18.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5636,7 +5636,7 @@
             "weight": 3.0,
             "length": 59.5,
             "width": 59.5,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5646,7 +5646,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5656,7 +5656,7 @@
             "weight": 1.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5666,7 +5666,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5676,7 +5676,7 @@
             "weight": 8.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5686,7 +5686,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5696,7 +5696,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5706,7 +5706,7 @@
             "weight": 8.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5716,7 +5716,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5726,7 +5726,7 @@
             "weight": 1.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5736,7 +5736,7 @@
             "weight": 1.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5746,7 +5746,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5756,7 +5756,7 @@
             "weight": 2.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5766,7 +5766,7 @@
             "weight": 2.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5776,7 +5776,7 @@
             "weight": 1.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5786,7 +5786,7 @@
             "weight": 1.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5796,7 +5796,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5806,7 +5806,7 @@
             "weight": 1.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5816,7 +5816,7 @@
             "weight": 1.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5826,7 +5826,7 @@
             "weight": 1.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5836,7 +5836,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5846,7 +5846,7 @@
             "weight": 2.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5856,7 +5856,7 @@
             "weight": 675.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5866,7 +5866,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5876,7 +5876,7 @@
             "weight": 480.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5886,7 +5886,7 @@
             "weight": 2.0,
             "length": 65.0,
             "width": 70.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5896,7 +5896,7 @@
             "weight": 2.0,
             "length": 60.0,
             "width": 60.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5906,7 +5906,7 @@
             "weight": 7.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5916,7 +5916,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5926,7 +5926,7 @@
             "weight": 20.0,
             "length": null,
             "width": 80.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5936,7 +5936,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5946,7 +5946,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5956,7 +5956,7 @@
             "weight": 3.0,
             "length": 10.0,
             "width": 3.8,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5966,7 +5966,7 @@
             "weight": 1.0,
             "length": null,
             "width": 5.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5976,7 +5976,7 @@
             "weight": 1.0,
             "length": null,
             "width": 6.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5986,7 +5986,7 @@
             "weight": 2.0,
             "length": null,
             "width": 5.4,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -5996,7 +5996,7 @@
             "weight": 3.0,
             "length": null,
             "width": 6.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6006,7 +6006,7 @@
             "weight": 5.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6016,7 +6016,7 @@
             "weight": 2.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6026,7 +6026,7 @@
             "weight": 5.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6036,7 +6036,7 @@
             "weight": 5.0,
             "length": 15.0,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6046,7 +6046,7 @@
             "weight": 3.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6056,7 +6056,7 @@
             "weight": 3.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6066,7 +6066,7 @@
             "weight": 3.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6076,7 +6076,7 @@
             "weight": 3.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6086,7 +6086,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6096,7 +6096,7 @@
             "weight": 5.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6106,7 +6106,7 @@
             "weight": 3.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6116,7 +6116,7 @@
             "weight": 5.0,
             "length": null,
             "width": 6.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6126,7 +6126,7 @@
             "weight": 3.0,
             "length": null,
             "width": 6.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6136,7 +6136,7 @@
             "weight": 5.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6146,7 +6146,7 @@
             "weight": 5.0,
             "length": 30.0,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6156,7 +6156,7 @@
             "weight": 5.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6166,7 +6166,7 @@
             "weight": 5.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6176,7 +6176,7 @@
             "weight": 5.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6186,7 +6186,7 @@
             "weight": 41.0,
             "length": null,
             "width": 5.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6196,7 +6196,7 @@
             "weight": 5.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6206,7 +6206,7 @@
             "weight": 5.0,
             "length": 19.0,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6216,7 +6216,7 @@
             "weight": 5.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6226,7 +6226,7 @@
             "weight": 3.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6236,7 +6236,7 @@
             "weight": 3.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6246,7 +6246,7 @@
             "weight": 3.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6256,7 +6256,7 @@
             "weight": 3.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6266,7 +6266,7 @@
             "weight": 3.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6276,7 +6276,7 @@
             "weight": 5.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6286,7 +6286,7 @@
             "weight": 5.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6296,7 +6296,7 @@
             "weight": 3.0,
             "length": null,
             "width": 10.1,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6306,7 +6306,7 @@
             "weight": 5.0,
             "length": 15.5,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6316,7 +6316,7 @@
             "weight": 5.0,
             "length": 18.0,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6326,7 +6326,7 @@
             "weight": 5.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6336,7 +6336,7 @@
             "weight": 1000.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6346,7 +6346,7 @@
             "weight": 500.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6356,7 +6356,7 @@
             "weight": 150.0,
             "length": null,
             "width": 5.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6366,7 +6366,7 @@
             "weight": null,
             "length": 0.1,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6376,7 +6376,7 @@
             "weight": 0.0,
             "length": 3.0,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6386,7 +6386,7 @@
             "weight": null,
             "length": 4.5,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6396,7 +6396,7 @@
             "weight": null,
             "length": 0.3,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6406,7 +6406,7 @@
             "weight": null,
             "length": 1.5,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6416,7 +6416,7 @@
             "weight": null,
             "length": 0.2,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6426,7 +6426,7 @@
             "weight": null,
             "length": 0.5,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6436,7 +6436,7 @@
             "weight": null,
             "length": 25.0,
             "width": 30.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6446,7 +6446,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6456,7 +6456,7 @@
             "weight": 256.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6466,7 +6466,7 @@
             "weight": null,
             "length": 0.5,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6476,7 +6476,7 @@
             "weight": null,
             "length": 2.0,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6486,7 +6486,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6496,7 +6496,7 @@
             "weight": 2.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6506,7 +6506,7 @@
             "weight": 1.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6516,7 +6516,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6526,7 +6526,7 @@
             "weight": null,
             "length": null,
             "width": 15.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6536,7 +6536,7 @@
             "weight": 67.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6546,7 +6546,7 @@
             "weight": 11.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6556,7 +6556,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6566,7 +6566,7 @@
             "weight": 17.0,
             "length": null,
             "width": 29.7,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6576,7 +6576,7 @@
             "weight": 1.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6586,7 +6586,7 @@
             "weight": 19.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6596,7 +6596,7 @@
             "weight": 40.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6606,7 +6606,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6616,7 +6616,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6626,7 +6626,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6636,7 +6636,7 @@
             "weight": null,
             "length": 0.0,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6646,7 +6646,7 @@
             "weight": null,
             "length": 0.7,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6656,7 +6656,7 @@
             "weight": null,
             "length": 0.0,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6666,7 +6666,7 @@
             "weight": 0.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6676,7 +6676,7 @@
             "weight": 9.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6686,7 +6686,7 @@
             "weight": 11.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6696,7 +6696,7 @@
             "weight": 2.0,
             "length": null,
             "width": 19.5,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6706,7 +6706,7 @@
             "weight": null,
             "length": null,
             "width": 17.5,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6716,7 +6716,7 @@
             "weight": null,
             "length": null,
             "width": 18.5,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6726,7 +6726,7 @@
             "weight": null,
             "length": null,
             "width": 19.5,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6736,7 +6736,7 @@
             "weight": null,
             "length": null,
             "width": 24.5,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6746,7 +6746,7 @@
             "weight": null,
             "length": null,
             "width": 20.5,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6756,7 +6756,7 @@
             "weight": null,
             "length": null,
             "width": 22.5,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6766,7 +6766,7 @@
             "weight": 1.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6776,7 +6776,7 @@
             "weight": 1.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6786,7 +6786,7 @@
             "weight": 2.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6796,7 +6796,7 @@
             "weight": 2.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6806,7 +6806,7 @@
             "weight": null,
             "length": null,
             "width": null,
-            "isCatalog": true
+            "is_catalog": true
         }
     },
     {
@@ -6816,7 +6816,7 @@
             "weight": 1.3,
             "length": 70.0,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6826,7 +6826,7 @@
             "weight": 25.0,
             "length": 0.3,
             "width": 0.3,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6836,7 +6836,7 @@
             "weight": 470894.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6846,7 +6846,7 @@
             "weight": 8.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6856,7 +6856,7 @@
             "weight": 12.0,
             "length": 12.0,
             "width": 21.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6866,7 +6866,7 @@
             "weight": 12.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6876,7 +6876,7 @@
             "weight": 12.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6886,7 +6886,7 @@
             "weight": null,
             "length": 12.0,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6896,7 +6896,7 @@
             "weight": 16.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6906,7 +6906,7 @@
             "weight": 85.0,
             "length": 0.8,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6916,7 +6916,7 @@
             "weight": 12.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6926,7 +6926,7 @@
             "weight": null,
             "length": 5.5,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6936,7 +6936,7 @@
             "weight": 0.123,
             "length": 2.25,
             "width": 1.5,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6946,7 +6946,7 @@
             "weight": 20.0,
             "length": 0.3,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6956,7 +6956,7 @@
             "weight": 2.0,
             "length": 10.0,
             "width": 6.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6966,7 +6966,7 @@
             "weight": 0.1,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6976,7 +6976,7 @@
             "weight": 10.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6986,7 +6986,7 @@
             "weight": 15.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -6996,7 +6996,7 @@
             "weight": 2.5,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -7006,7 +7006,7 @@
             "weight": 20.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -7016,7 +7016,7 @@
             "weight": 5.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -7026,7 +7026,7 @@
             "weight": 140.0,
             "length": 19.3,
             "width": 10.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -7036,7 +7036,7 @@
             "weight": 0.5,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -7046,7 +7046,7 @@
             "weight": 5.0,
             "length": 4.0,
             "width": 2.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -7056,7 +7056,7 @@
             "weight": 7.0,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -7066,7 +7066,7 @@
             "weight": 30.0,
             "length": 10.5,
             "width": 7.5,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -7076,7 +7076,7 @@
             "weight": 2.0,
             "length": 8.0,
             "width": 3.5,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -7086,7 +7086,7 @@
             "weight": 40.27,
             "length": 20.0,
             "width": 15.0,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -7096,7 +7096,7 @@
             "weight": 1.6,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -7106,7 +7106,7 @@
             "weight": 0.34,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -7116,7 +7116,7 @@
             "weight": 0.6,
             "length": 10.0,
             "width": 0.28,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -7126,7 +7126,7 @@
             "weight": 0.75,
             "length": null,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     },
     {
@@ -7136,7 +7136,7 @@
             "weight": 2.0,
             "length": 400.0,
             "width": null,
-            "isCatalog": false
+            "is_catalog": false
         }
     }
 ]
