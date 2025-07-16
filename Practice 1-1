@@ -1,0 +1,649 @@
+import json
+import requests
+import pandas as pd
+from bs4 import BeautifulSoup
+from fake_useragent import UserAgent
+import time
+import re
+import webbrowser
+#from selenium import webdriver
+#import label_studio_sdk
+#LABEL_STUDIO_URL = 'http://localhost:8080'
+#API_KEY = ''
+#from label_studio_sdk.client import LabelStudio
+#from label_studio_sdk import Client
+#from label_studio_sdk.data_manager import Filters, Column, Operator, Type
+#from label_studio_sdk._legacy import Project
+def mg_to_kg(mg):
+    return float(round(mg/1000000,4))
+def g_to_kg(g):
+    return float(round(g/1000,4))
+def t_to_kg(t):
+    return float(round(t*1000,4))
+def oz_to_kg(oz):
+    return float(round(oz*0.02835,4))
+def mm_to_cm(mm):
+    return float(round(mm/10,4))
+def m_to_cm(m):
+    return float(round(m*100,4))
+def dot_replace(numb):
+    try:
+        return float(numb.replace(",", "."))
+    except:
+        return float(numb)
+def search_in_class(soup, sr_tag, sr_class, index_find, pat, match_group):
+    try:
+        search = soup.find_all(sr_tag, {"class": sr_class})[index_find]
+    except:
+        print("В теге с классом отсутствуют вложенные теги")
+        return None
+    else:
+        match = re.findall(pat, str(search))
+        if match:
+            try:
+                numb= dot_replace(match[match_group])
+            except:
+                print("Число без запятой")
+                numb = match[match_group]
+            else:
+                return float(numb)
+def search_in_descent(soup, pat):
+    dim_h = ['м','мм']
+    dim_w = ['мг','гр','тонн','унций','грамм']
+    params = ["Высота","Вес","Длина","Ширина"]
+    found_param = [None,None,None,None]
+    try:
+        search = soup.find("html")
+        descent = list(search.find_all())
+    except:
+        print("Нет данных о вложенных тегах")
+        return found_param
+    else:
+        for i in descent:
+            match1=None
+            match2=None
+            match3=None
+            for j in params:
+                if match1==None:
+                    try:
+                        search1 = re.findall("[^А-Яа-я0-9]"+j+"^[А-Яа-я0-9]",str(i), re.IGNORECASE)
+                        if len(search1)>0:
+                            match1 = params.index(j)
+                        if len(search1) ==0:
+                            match1 ==None
+                    except:
+                        match1 = None
+            try:
+                search2 = re.findall(pat,str(i))
+                if len(search2) > 0:
+                    match2 = search2[0]
+                if len(search2) == 0:
+                    match2 = None
+            except:
+                match2 = None
+            if (match1!=None and match2!=None and dot_replace(match2)<30000 and dot_replace(match2)>0):
+                try:
+                    match2 = dot_replace(match2)
+                except:
+                    match2 = match2
+                else:
+                    if match1 == 1:
+                        for k in dim_w:
+                            if match3==None:
+                                try:
+                                    search3 = re.findall("[^А-Яа-я]"+k+"[^А-Яа-я0-9]", str(i), re.IGNORECASE)
+                                    if len(search3)>0:
+                                        match3 = dim_w.index(k)
+                                    if len(search3) ==0:
+                                        match3 = None
+                                except:
+                                    match3 = None
+                    else:
+                        for k in dim_h:
+                            if match3==None:
+                                try:
+                                    search3 = re.findall("[^А-Яа-я]" + k + "[^А-Яа-я0-9]", str(i), re.IGNORECASE)
+                                    if len(search3) > 0:
+                                        match3 = dim_h.index(k)
+                                    if len(search3) ==0:
+                                        match3 = None
+                                except:
+                                    match3 = None
+                    if match3!=None and match1==1:
+                        if match3==0:
+                            match2 = mg_to_kg(float(match2))
+                        elif match3==1 or 4:
+                            match2 = g_to_kg(float(match2))
+                        elif match3 == 2:
+                            match2 = t_to_kg(float(match2))
+                        elif match3 == 3:
+                            match2 = oz_to_kg(float(match2))
+                    elif match3!=None and match1!=1:
+                        if match3 == 0:
+                            match2 = m_to_cm(float(match2))
+                        elif match3 == 1:
+                            match2 = mm_to_cm(float(match2))
+                    if float(match2)>=0:
+                        found_param[match1]=float(match2)
+        print(found_param)
+        return found_param
+def search_in_size(soup, pat):
+    dim_h = ['м','мм']
+    params = ["размер","габариты"]
+    found_param = [None,None,None]
+    try:
+        search = soup.find("html")
+        descent = list(search.find_all())
+    except:
+        print("Нет данных о вложенных тегах")
+        return found_param
+    else:
+        for i in descent:
+            match1=None
+            match2=None
+            match3=None
+            for j in params:
+                if match1 == None:
+                    try:
+                        search1 = re.findall("[^А-Яа-я0-9]"+j,str(i), re.IGNORECASE)
+                        if len(search1) > 0:
+                            match1 = j
+                        if len(search1) == 0:
+                            match1 = None
+                    except:
+                        match1 = None
+            for k in dim_h:
+                if match3 == None:
+                    try:
+                        search3 = re.findall("[^А-Яа-я]"+k+"[^А-Яа-я0-9]", str(i), re.IGNORECASE)
+                        if len(search3)>0:
+                            match3 = dim_h.index(k)
+                        if len(search3) ==0:
+                            match3 = None
+                    except:
+                        match3 = None
+            match2 = re.findall(pat, str(i))
+            if (len(match2)==0):
+                match2 = None
+            if (match1!=None and match2!=None and  match3!=None and dot_replace(match2[0])<10000 and dot_replace(match2[0])>0):
+                found_param[0] = match2[0]
+                try:
+                    if dot_replace(match2[1]) < 10000:
+                        found_param[1] = match2[1]
+                except:
+                    found_param[1] = None
+                try:
+                    if dot_replace(match2[2])<10000:
+                        found_param[2] = match2[2]
+                except:
+                    found_param[2] = None
+                for n in found_param:
+                    try:
+                        if(n!=None):
+                            n = float(dot_replace(n))
+                    except:
+                        if(n!=None):
+                            n = float(n)
+                    if match3!=None:
+                        if match3 == 0 and n!=None:
+                            try:
+                                n = m_to_cm(float(n))
+                            except:
+                                n = n
+                        elif match3 == 1 and n!=None:
+                            try:
+                                n = mm_to_cm(float(n))
+                            except:
+                                n = n
+        for x in found_param:
+            if(match1!=None or match2!=None or match3!=None):
+                print(match1)
+                print(match2)
+                print(match3)
+                print('...')
+        print(found_param)
+        return found_param
+
+def exponential_backoff(attempt):
+    time.sleep(3 * attempt)
+def getreq (parslink, headers):
+    # получение запроса по ссылке
+    try:
+        match = str(parslink).find('solution-print')
+        if match:
+            parslink= parslink.replace('solution-print','s-print')
+        bad_site.append(parslink)
+        soup=None
+        print (str(parslink))
+        match2 = str(parslink).find('spb.kuvalda.ru')
+        if match2 != -1:
+            time.sleep(3)
+        r = requests.get(parslink, headers=headers, allow_redirects=True, timeout=15, verify=False)
+        print (f'Код подключения: {r.status_code}')
+        if r.status_code == 429:
+            for j in range(5):
+                r = requests.get(parslink, headers=headers, allow_redirects=True, timeout=5, verify=False)
+                exponential_backoff(j)
+    # "verify=False" для отключения проверки сертификатов
+    except requests.exceptions.TooManyRedirects:
+        print("Что-то пошло не так1")
+    except requests.exceptions.ReadTimeout:
+        print("Что-то пошло не так2")
+    except requests.exceptions.SSLError:
+        print("Что-то пошло не так3")
+    except requests.exceptions.ConnectionError:
+        print("Что-то пошло не так4")
+    else:
+        global good
+        bad_site.remove(parslink)
+        #print (bad_site)
+        # конвертация в текст
+        s = r.text
+        #удаление комментариев из DOM
+        match = re.findall('<!--(.+?)-->', str(s))
+        for n in match:
+            s = s.replace('<!--'+n+'-->',"")
+        soup = BeautifulSoup(s, 'html.parser')
+        #код подключения
+        if r.status_code ==200 or r.status_code ==301:
+            good = good + 1
+        # поиск и удаление тегов
+        for tag in soup(['script', 'style', 'nav', 'footer', 'aside', 'img', 'a', 'button', 'input', 'noscript', 'head',  'svg', 'row','link','noindex','label', 'option','textarea','tinkoff-create-button','meta','strong']):
+            tag.decompose()
+        all_class=[]
+        useless_class_mark =['pswp','api','mobile','panel', 'rating', 'alert','copyright','adaptive','loading','top-menu','fotorama','logo','svg', 'image','cart']
+        #['js', 'search', 'city', 'phone',,'dropdown','wrap','menu','select','footer','header',]
+        useless_class=[]
+        usefull_tags =['div','span','li']
+        #whitelist_class_mark = ['height','weight','width','length','catalog','charac']
+        #whitelist_class =[]
+        #whitelist_tags = []
+
+        for tag in soup():
+            if tag.get('class')!=None:
+                for k in (tag.get('class')):
+                    all_class.append(k)
+        for useless in useless_class_mark:
+            for classes in all_class:
+                match = classes.find(useless)
+                if match!=(-1):
+                    useless_class.append(classes)
+
+        '''
+        for whitelist in whitelist_class_mark:
+            for classes in all_class:
+                match = classes.find(whitelist)
+                if match!=(-1):
+                    whitelist_class.append(classes)
+        #print (whitelist_class)
+        for x in usefull_tags:
+            for y in whitelist_class:
+                for tag in soup.find_all(x,{ "class": y}):
+                    whitelist_tags.append(tag)
+                    #print(whitelist_tags)
+        '''
+
+        space = 1
+        while (space !=0):
+            space = 0
+            for x in usefull_tags:
+                for y in useless_class:
+                    for tag in soup(x,{ "class": y}):
+                        content = tag.contents
+                        #print(f'контент {content}')
+                        if [0] not in content:
+                            tag.decompose()
+                        else:
+                            print(content[0])
+                            print(content)
+                            for c in content:
+                                match3 = c.find(x)
+                                for n in range(10):
+                                    print("#######")
+                                print(match3)
+                                if match3!=-1:
+                                    tag.decompose()
+                            space = 1
+                        '''
+        '''
+        # вывод структуры с удалёнными тегами
+        s = str(soup.getText)
+        for n in range(50):
+            s=s.replace(r"\n\n",r"\n")
+        soup = BeautifulSoup(s, 'html.parser')
+        #print(soup)
+    finally:
+        sitesearch(parslink, soup)
+
+def sitesearch (parslink, soup):
+    height = None
+    weight = None
+    length = None
+    width = None
+    isCatalog = False
+    #поиск по сайту
+    catalog_link = [
+        "shop.f-trade.ru",  # 6-8
+        "shop.idelectro.ru",  # 10
+        "shop.krata.ru",  # 12
+        "shop.lablte.ru",  # 13
+        "shop.mie-eu.com",  # 15-17
+        "shop.profit-service.com/category/raskhodnye-materialy/roliki-zakhvata/", #39
+        "shop.ravenol.su/category",  # 40
+        "shop.unisaw.ru",  # 49
+        "shop.zigmundshtain.ru",  # 52
+        "shop4sezona.ru",  # 53
+        "shopleds.ru",  # 54
+        "shopozz.ru",  # 55-67
+        "shops-prices.ru/bytovaya-tehnika/tehnika-dlya-kuhni/",  # 69
+        "shops-prices.ru/kompjutery-i-noutbuki/",  # 74-75
+        "showlight-shop.ru",  # 77-78
+        "shukur.ru",  # 82
+        "shveiko.ru",  # 85
+        "si-tools.ru/catalog/kombinirovannye_klyuchi/", #90
+        "si-tools.ru/catalog/razvodnye_klyuchi/" # 93
+        "sibcontact.com",  # 94
+        "sibrtec-instrument.ru/", #102
+        "sidenie-dlyaunitaza.ru/",  # 112
+        "sidex.ru/",  # 113-129
+        "siemens-centre.ru/",  # 130
+        "https://simple-com.ru/catalog/ruchnoy_instrument/malyarnyy/valiki/malyarnye/", #131
+        "https://sintsec.ru/prohodnye-adaptery-rozetki-opticheskie",#143
+        "https://sip.store/catalog/ip-shlyuzy/", #144
+        "https://sitdv.ru/catalog/komplektuyushchie/kontrollery_raid/", #146
+        "sklad-ok.ru/domkrati",  # 202
+        "skmt.ru/catalog/gvozdi/stroitelnye_gvozdi/",  # 216
+        "sknerud.ru/reagent/peskosol/",  # 217
+        "skobmir.ru/catalog/zamochno_skobyanye_izdeliya/furnitura_dlya_okon_i_dverey/furnitura_dlya_metallicheskikh_i_derevyannykh_dverey/",  # 219
+        "https://skomplekt.com/tovar/10/",  # 220-221
+        "slon01.ru",  # 231
+        "smart-mate.ru",  # 232
+        "smart-trade.su",  # 234
+        "smartcode.ru/kassovoe_i_torgovoe_oborudovanie/pos_sistemy/pos_terminalymonobloki",  # 236
+        "smartcode.ru/shtrihkodirovanie_i_identifikatsiya/printery_shtrih_koda/termotransfernye-printery-etiketok",  # 237
+        "smartcode.ru/shtrihkodirovanie_i_identifikatsiya/skanery_shtrihkoda/besprovodnye_dvumernye_skanery/tip-besprovodnoi-svyazi_radiokanal",  # 238
+        "smartcode.ru/shtrihkodirovanie_i_identifikatsiya/skanery_shtrihkoda/mnogoploskostnye_odnomernye_skanery/vid-skanera_statsionarnyi",  # 239
+        "smgrussia.ru/holodilniki",  # 293
+        "snik.co", #301-308
+        "snpmarket.com/catalog/pk-noutbuki-periferiya/hranenie-dannyih/jestkie-diski-sata-i-nakopiteli-ssd", # 312
+        "so32.ru", # 315
+        "solarbreeze.ru",  # 319
+        "solarmsk.ru",  # 320
+        "som1.ru",  # 326
+        "sortmet.ru",  # 327
+        "sos-dn.com/kabelnaja-produkcija/kabel-signalizacii/",  # 328
+        "sos-dn.com/ohrannaja-i-pozharnaja-signalizacija/izveshhateli-ohrannye/",  # 329
+        "sovetoil.ru/catalog/motornye_masla/",  # 331
+        "sp-laptop.ru/operativnaya-pamyat/",  # 335
+        "spb-cactus.ru/cats/prezentacionnoe-oborudovanie/ekrany-dlya-proektorov/",  # 338
+        "spb-rastvoritel.ru",  # 341
+        "spb.saturn.net/catalog/Lektrotehnicheskie-tovari/Rozetki-i-vyklychateli/Seriya-TDM-Electric", # 702-703
+        "spb.translux.ru/catalog/business-class/kia-optima2018/", # 773
+        "spbsis.ru/shop/category/gotovye-kompjutery/", # 948
+        "spbteplo.com/catalogue/cat/gotovye-sistemy/", # 949
+        "specdetail.ru",  # 950
+        "splitis.ru/"  # 958
+    ]
+    for y in catalog_link:
+        if (parslink.find(y)) != -1:
+            isCatalog = True
+    if isCatalog == False:
+        height = search_in_descent(soup, '[+]?(?:\d+(?:\,\d*)?|\,\d+)(?:[+]?\d+)?')[0]
+        if height == None:
+            height = search_in_size(soup, '[+]?(?:\d+(?:\,\d*)?|\,\d+)(?:[+]?\d+)?')[2]
+            if height != None:
+                try:
+                    height = dot_replace(height)
+                except:
+                    height = height
+                height = float(height)
+        weight = search_in_descent(soup, '[+]?(?:\d+(?:\,\d*)?|\,\d+)(?:[+]?\d+)?')[1]
+        length = search_in_descent(soup, '[+]?(?:\d+(?:\,\d*)?|\,\d+)(?:[+]?\d+)?')[2]
+        if length == None:
+            length = search_in_size(soup, '[+]?(?:\d+(?:\,\d*)?|\,\d+)(?:[+]?\d+)?')[0]
+            if length != None:
+                try:
+                    length = dot_replace(length)
+                except:
+                    length = length
+                length = float(length)
+        width = search_in_descent(soup, '[+]?(?:\d+(?:\,\d*)?|\,\d+)(?:[+]?\d+)?')[3]
+        if width == None:
+            width = search_in_size(soup, '[+]?(?:\d+(?:\,\d*)?|\,\d+)(?:[+]?\d+)?')[1]
+            if width != None:
+                try:
+                    width = dot_replace(width)
+                except:
+                    width = width
+                width = float(width)
+    if (parslink.find("shop.chesslabyrinth.ru/demonstratsionnaya-doska-grossmejster-100100")) != -1:
+        weight = search_in_class(soup, "div", "tab-pane active", 0, '(\d+?) ', 8)
+        length = search_in_class(soup, "div", "tab-pane active", 0, '(\d+?) ', 5)
+        width = search_in_class(soup, "div", "tab-pane active", 0, '(\d+?) ', 5)
+    elif (parslink.find("shop.chesslabyrinth.ru/shahmatnye-chasy/")) != -1:
+        height = search_in_class(soup,"div","tab-pane active",0,' [-+]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][-+]?\d+)?',2)
+        length = search_in_class(soup,"div","tab-pane active",0,' [-+]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][-+]?\d+)?',0)
+        width = search_in_class(soup,"div","tab-pane active",0,' [-+]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][-+]?\d+)?',1)
+
+    elif (parslink.find("shop.chesslabyrinth.ru/shahmatnye-figury/")) != -1:
+        height = search_in_class(soup,"div","tab-pane active",0,'[-+]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][-+]?\d+)?',0)
+        weight = search_in_class(soup,"div","tab-pane active",0,'[-+]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][-+]?\d+)?',4)
+        length = search_in_class(soup,"div","tab-pane active",0,'[-+]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][-+]?\d+)?',2)
+        width = search_in_class(soup,"div","tab-pane active",0,'[-+]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][-+]?\d+)?',2)
+        height = mm_to_cm(height)
+        length = mm_to_cm(length)
+        width = mm_to_cm(width)
+
+
+
+    elif (parslink.find("shop.nag.ru")) != -1:
+        if (parslink.find("shop.nag.ru/catalog/00001.kommutatory/40213.fiksirovannye-kommutatory/64956.snr-s5210x-8f-ups")) != -1:
+            height = search_in_class(soup,"table","headline dense ItemTabProperties_table__sSoeQ product-tab-block__content",0,'[-+]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][-+]?\d+)?',-1)
+            length = search_in_class(soup,"table","headline dense ItemTabProperties_table__sSoeQ product-tab-block__content",0,'[-+]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][-+]?\d+)?',-3)
+            width = search_in_class(soup,"table","headline dense ItemTabProperties_table__sSoeQ product-tab-block__content",0,'[-+]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][-+]?\d+)?',-2)
+            height = mm_to_cm(height)
+            length = mm_to_cm(length)
+            width = mm_to_cm(width)
+        if (parslink.find("shop.nag.ru/catalog/31464.komplektuyuschie-dlya-serverov-i-shd/02273.setevye-karty/21363.pe2g4i35l")) != -1:
+            length = search_in_class(soup,"div","product-tab-block__content",0,'[-+]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][-+]?\d+)?',22)
+            width = search_in_class(soup,"div","product-tab-block__content",0,'[-+]?(?:\d+(?:\,\d*)?|\,\d+)(?:[eE][-+]?\d+)?',24)
+            length = mm_to_cm(length)
+            width = mm_to_cm(width)
+        if (parslink.find("shop.nag.ru/catalog/31464.komplektuyuschie-dlya-serverov-i-shd/02273.setevye-karty/21363.pe2g4i35l")) != -1:
+            length = search_in_class(soup,"div","product-tab-block__content",0,'[-+]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][-+]?\d+)?',22)
+            width = search_in_class(soup,"div","product-tab-block__content",0,'[-+]?(?:\d+(?:\,\d*)?|\,\d+)(?:[eE][-+]?\d+)?',24)
+            length = mm_to_cm(length)
+            width = mm_to_cm(width)
+        if (parslink.find("shop.nag.ru/catalog/31464.komplektuyuschie-dlya-serverov-i-shd/33568.servernye-ssd/32884.mz7lh240hahq-00005")) != -1:
+            height = mm_to_cm(height)
+            length = mm_to_cm(length)
+            width = mm_to_cm(width)
+        if (parslink.find("shop.nag.ru/catalog/31464.komplektuyuschie-dlya-serverov-i-shd/33568.servernye-ssd/43968.sedc1000bm8240g")) != -1:
+            weight = search_in_class(soup,"div","CollapseWrapper_wrapperItem__NAHpM",1,'[-+]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][-+]?\d+)?',-3)
+            height = mm_to_cm(height)
+            length = mm_to_cm(length)
+            width = mm_to_cm(width)
+    elif (parslink.find("shop.oilberry.ru")) != -1:
+        height = search_in_class(soup,"div","right position",0,'[-+]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][-+]?\d+)?',-1)
+        weight = search_in_class(soup,"div","right position",0,'[-+]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][-+]?\d+)?',-1)
+        length = search_in_class(soup,"div","right position",0,'[-+]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][-+]?\d+)?',-1)
+        width = search_in_class(soup,"div","right position",0,'[-+]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][-+]?\d+)?',-1)
+        #height = mm_to_cm(height)
+        #length = mm_to_cm(length)
+        #width = mm_to_cm(width)
+    elif (parslink.find("shop.planet.com.ru")) != -1:
+        height = search_in_class(soup,"table","stats",0,'[-+]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][-+]?\d+)?',-5)
+        weight = search_in_class(soup,"table","stats",0,'[-+]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][-+]?\d+)?',-3)
+        length = search_in_class(soup,"table","stats",0,'[-+]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][-+]?\d+)?',-6)
+        width = search_in_class(soup,"table","stats",0,'[-+]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][-+]?\d+)?',-4)
+
+    elif (parslink.find("shop.profit-service.com")) != -1:
+        isCatalog=True
+    elif (parslink.find("shop.ravenol.su")) != -1:
+        if (parslink.find("shop.ravenol.su/motornoe-maslo-ravenol-teg-10w-40/")) != -1:
+            weight = search_in_class(soup,"table","features",0,'[-+]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][-+]?\d+)?',-13)
+        if (parslink.find("shop.ravenol.su/vodostoykaya-morskaya-smazka-ravenol-marinefett")) != -1:
+            weight = search_in_class(soup,"table","features",0,'[-+]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][-+]?\d+)?',-10)
+
+
+
+    elif (parslink.find("shop.salon-bisera.ru"))!=-1:
+        length = mm_to_cm(length)
+        width = mm_to_cm(width)
+    elif (parslink.find("shop.tn.ru")) != -1:
+        if (parslink.find("shop.tn.ru/ochistitel-montazhnoj-peny-tehnonikol-master")) != -1:
+            weight = search_in_class(soup, "div", "table", 0,'[-+]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][-+]?\d+)?', -2)
+        if (parslink.find("shop.tn.ru/samorez-sverlokonechnyj")) != -1:
+            length = search_in_class(soup, "div", "table", 0,'[-+]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][-+]?\d+)?', -6)
+            width = search_in_class(soup, "div", "table", 0,'[-+]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][-+]?\d+)?', -5)
+            length = mm_to_cm(length)
+            width = mm_to_cm(width)
+    elif (parslink.find("shop.tsd-it.ru")) != -1:
+        height = search_in_class(soup, "table", "MsoTableGrid", 0,'[-+]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][-+]?\d+)?', 0)
+        length = search_in_class(soup, "table", "MsoTableGrid", 0,'[-+]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][-+]?\d+)?', -1)
+        width = search_in_class(soup, "table", "MsoTableGrid", 0,'[-+]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][-+]?\d+)?', -1)
+
+    elif (parslink.find("shop.voltyre-prom.ru")) != -1:
+        height = search_in_class(soup, "div", "tab-content", 0,'[-+]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][-+]?\d+)?', -1)
+        length = search_in_class(soup, "table", "MsoTableGrid", 0,'[-+]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][-+]?\d+)?', -1)
+        width = search_in_class(soup, "table", "MsoTableGrid", 0,'[-+]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][-+]?\d+)?', -1)
+
+    #elif (parslink.find("shops-prices.ru"))!=-1:
+
+    elif (parslink.find("showay.ru")) != -1:
+        height = search_in_class(soup, "li", "cur", 0,'[-+]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][-+]?\d+)?', -1)
+        length = search_in_class(soup, "li", "cur", 0,'[-+]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][-+]?\d+)?', -1)
+        width = search_in_class(soup, "li", "cur", 0,'[-+]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][-+]?\d+)?', -1)
+    elif (parslink.find("shurik.market")) != -1:
+        if (parslink.find("shurik.market/product/plenka-tekhnicheskaia")) != -1:
+            length = search_in_class(soup, "div", "product-page-desktop container", 0,'[-+]?(?:\d+(?:\,\d*)?|\,\d+)(?:[eE][-+]?\d+)?', 7)
+            weight = search_in_class(soup, "div", "product-page-desktop container", 0,'[-+]?(?:\d+(?:\,\d*)?|\,\d+)(?:[eE][-+]?\d+)?', 9)
+        if (parslink.find("shurik.market/spb/product/samorezy-mm-4")) != -1:
+            weight = search_in_class(soup, "li", "product-page-features-item", 0,'[-+]?(?:\d+(?:\,\d*)?|\,\d+)(?:[eE][-+]?\d+)?', -1)
+    elif (parslink.find("si-market.ru/")) != -1:
+        if (parslink.find("si-market.ru/catalog/pesok-keramzit/pesko-solyanaya-smes-70-30-50kg/")) != -1:
+            weight = search_in_class(soup, "div", "limiter", 0,'[-+]?(?:\d+(?:\,\d*)?|\,\d+)(?:[eE][-+]?\d+)?', 5)
+            weight = weight*-1
+        if (parslink.find("si-market.ru/catalog/profil-dlya-montazha-gvl-i-gkl/profil-shtukaturnyy-mayachkovyy-pvkh-6mm-3m-00-00011391/")) != -1:
+            length = search_in_class(soup, "div", "limiter", 0,'[-+]?(?:\d+(?:\,\d*)?|\,\d+)(?:[eE][-+]?\d+)?', 4)
+            length = length*-1
+            length = m_to_cm(length)
+            weight = g_to_kg(weight)
+        if (parslink.find("si-market.ru/catalog/serpyanki-setki-lenty-stroitelnye/lenta-bumazhnaya-armiruyushchaya-52mmkh50m-perforirovannaya-knauf-00-00003820/")) != -1:
+            length = search_in_class(soup, "div", "limiter", 0,'[-+]?(?:\d+(?:\,\d*)?|\,\d+)(?:[eE][-+]?\d+)?', 4)
+            length = m_to_cm(length)
+            width = search_in_class(soup, "div", "limiter", 0,'[-+]?(?:\d+(?:\,\d*)?|\,\d+)(?:[eE][-+]?\d+)?', 3)
+            width = width*-1
+            width = mm_to_cm(width)
+        if (parslink.find("si-market.ru/catalog/sterzhni-teleskopicheskie/sterzhen-udlinitel-teleskopicheskiy-1-2m/")) != -1:
+            length = search_in_class(soup, "div", "limiter", 0,'[-+]?(?:\d+(?:\,\d*)?|\,\d+)(?:[eE][-+]?\d+)?', 4)
+            length = length*-1
+            length = m_to_cm(length)
+    elif (parslink.find("si-tools.ru"))!=-1:
+        isCatalog=True
+        if (parslink.find("si-tools.ru/catalog/krestovie/otvertka_krestovaya_ph1kh100_cs_30_5_4_/"))!=-1:
+            weight = search_in_class(soup, "div", "col-xl-9 col-md-12", 0,'[-+]?(?:\d+(?:\,\d*)?|\,\d+)(?:[eE][-+]?\d+)?', -1)
+            weight = g_to_kg(weight)
+            length = search_in_class(soup, "div", "col-xl-9 col-md-12", 0, '[-+]?(?:\d+(?:\,\d*)?|\,\d+)(?:[eE][-+]?\d+)?', -3)
+            length = mm_to_cm(length)
+            isCatalog=False
+        if (parslink.find("si-tools.ru/catalog/passatizhi/1820_06_passatizhi_kombinirovannye_160mm/"))!=-1:
+            weight = search_in_class(soup, "div", "col-xl-9 col-md-12", 0,'[-+]?(?:\d+(?:\,\d*)?|\,\d+)(?:[eE][-+]?\d+)?', 19)
+            weight = g_to_kg(weight)
+            length = search_in_class(soup, "div", "col-xl-9 col-md-12", 0, '[-+]?(?:\d+(?:\,\d*)?|\,\d+)(?:[eE][-+]?\d+)?', -1)
+            length = mm_to_cm(length)
+            isCatalog=False
+    elif (parslink.find("sibin-shop.ru"))!=-1:
+        if (parslink.find("sibin-shop.ru/kelma-otdelochnika-stalnaya-sibin-175kh110kh90mm-trapetsiya-derevyannaya-ruchka-0820-1/"))!=-1:
+            height= search_in_class(soup, "div", "item-tabs", 0, '[-+]?(?:\d+(?:\,\d*)?|\,\d+)(?:[eE][-+]?\d+)?', -5)
+            length = search_in_class(soup, "div", "item-tabs", 0, '[-+]?(?:\d+(?:\,\d*)?|\,\d+)(?:[eE][-+]?\d+)?',-7)
+            width = search_in_class(soup, "div", "item-tabs", 0, '[-+]?(?:\d+(?:\,\d*)?|\,\d+)(?:[eE][-+]?\d+)?',-6)
+            height = mm_to_cm(height)
+            length = mm_to_cm(length)
+            width = mm_to_cm(width)
+        if (parslink.find("sibin-shop.ru/kombinirovannyy-gaechnyy-klyuch-sibin-17-mm-27089-17_z01/"))!=-1:
+            length = search_in_class(soup, "div", "item-tabs", 0, '[-+]?(?:\d+(?:\,\d*)?|\,\d+)(?:[eE][-+]?\d+)?',-9)
+            length = mm_to_cm(length)
+        if (parslink.find("sibin-shop.ru/slesarnyy-molotok-sibin-s-derevyannoy-rukoyatkoy-400g-20045-04/"))!=-1:
+            weight = search_in_class(soup, "div", "item-tabs", 0, '[-+]?(?:\d+(?:\,\d*)?|\,\d+)(?:[eE][-+]?\d+)?',-1)
+            weight = g_to_kg(weight)
+    
+    
+    elif (parslink.find("sibrtec-instrument.ru/product/"))!=-1:
+        isCatalog=False
+    elif (parslink.find("sibrtec-shop.ru/"))!=-1:
+        height = search_in_descent(soup,'[-+]?(?:\d+(?:\,\d*)?|\,\d+)(?:[eE][-+]?\d+)?')[0]
+        weight = search_in_descent(soup,'[-+]?(?:\d+(?:\,\d*)?|\,\d+)(?:[eE][-+]?\d+)?')[1]
+        length = search_in_descent(soup,'[-+]?(?:\d+(?:\,\d*)?|\,\d+)(?:[eE][-+]?\d+)?')[2]
+        width = search_in_descent(soup,'[-+]?(?:\d+(?:\,\d*)?|\,\d+)(?:[eE][-+]?\d+)?')[3]
+    elif (parslink.find("simple-com.ru/catalog/ruchnoy_instrument/malyarnyy/valiki/malyarnye/valik_mikrofibra_250_mm_vors_9_mm_master_color_30_0841/"))!=-1:
+        isCatalog=False
+        width = search_in_class(soup, "div", "sc-product-info", 0, '[-+]?(?:\d+(?:\,\d*)?|\,\d+)(?:[eE][-+]?\d+)?',-1)
+    elif (parslink.find("simple-com.ru/catalog/ruchnoy_instrument/malyarnyy/valiki/malyarnye/valik_velyurovyy_250_mm_vors_4_mm_matrix_80663/"))!=-1:
+        isCatalog = False
+        width = search_in_class(soup, "div", "sc-product-info", 0, '[-+]?(?:\d+(?:\,\d*)?|\,\d+)(?:[eE][-+]?\d+)?',-1)
+    elif (parslink.find("simple-com.ru/catalog/ruchnoy_instrument/shtukaturno_otdelochnyy/kelmy/kelma_otdelochnika_165_mm_trapetsiya_kurs_05886/"))!=-1:
+        isCatalog = False
+        width = search_in_class(soup, "div", "sc-product-info", 0, '[-+]?(?:\d+(?:\,\d*)?|\,\d+)(?:[eE][-+]?\d+)?',-1)
+    elif (parslink.find("simple-com.ru/catalog/ruchnoy_instrument/stolyarnyy_i_slesarnyy/stameski/stameski-ploskie/stameska_ploskaya_6_mm_stayer_maxcut_1820_06_z01/"))!=-1:
+        isCatalog = False
+        width = search_in_class(soup, "div", "sc-product-info", 0, '[-+]?(?:\d+(?:\,\d*)?|\,\d+)(?:[eE][-+]?\d+)?',-1)
+
+
+    s2 = {
+        "url": parslink,
+        "labels": {
+            "height": height ,
+            "weight": weight ,
+            "length": length ,
+            "width": width ,
+            "is_catalog": isCatalog
+        }
+    }
+    print("...")
+    print(height)
+    print(weight)
+    print(length)
+    print(width)
+    print(isCatalog)
+    print("...")
+    if (height!=None or weight!=None or length!=None or width!=None or isCatalog!=False):
+        s1.append(s2)
+
+i=(8001-2)
+#Пропуск 8000 строк, подбор строк с 8001 до 9000
+exl = pd.read_excel("urls.xlsx", skiprows=i, nrows=1000)
+
+st_accept = "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+# говорим веб-серверу, что хотим получить html
+# имитируем подключение через браузер Mozilla на macOS
+#st_useragent =["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36","Mozilla/5.0 (Macintosh; Intel Mac OS X 12_3_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15"]
+
+# формируем хеш заголовков
+headers = {
+   "Accept": st_accept,
+   "User-Agent": UserAgent().random #генерация фальшивой мета-информации для избежания обрыва соединения
+}
+
+i=500
+good = 0
+bad_site=[]
+s1=[]
+s2={}
+#Вывод каждой ячейки
+while (i<1000):
+    #получение ссылки
+    print(UserAgent().random)
+    parslink=exl.iloc[i,0]
+    #webbrowser.open(parslink)
+    if(i%15==0):
+        getreq(parslink, headers)
+    print(f"Итерация: {i+1}")
+    print(f"Успешно: {good}")
+    i = i + 1
+for i in bad_site:
+    print (i)
+# запись в json
+
+with open("practice_1-1.json", "w", encoding="utf-8") as file:
+   json.dump(s1, file, indent=4)
