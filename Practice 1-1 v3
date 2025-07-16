@@ -28,8 +28,10 @@ def m_to_cm(m):
     return float(round(m*100,4))
 def dot_replace(numb):
     try:
+        #print("Число с запятой")
         return float(numb.replace(",", "."))
     except:
+        #print("Число без запятой")
         return float(numb)
 def search_in_class(soup, sr_tag, sr_class, index_find, pat, match_group):
     try:
@@ -66,7 +68,7 @@ def search_in_descent(soup, pat):
             for j in params:
                 if match1==None:
                     try:
-                        search1 = re.findall("[^А-Яа-я0-9]"+j+"^[А-Яа-я0-9]",str(i), re.IGNORECASE)
+                        search1 = re.findall("[^А-Яа-я0-9]"+j,str(i), re.IGNORECASE)
                         if len(search1)>0:
                             match1 = params.index(j)
                         if len(search1) ==0:
@@ -81,7 +83,7 @@ def search_in_descent(soup, pat):
                     match2 = None
             except:
                 match2 = None
-            if (match1!=None and match2!=None and dot_replace(match2)<30000 and dot_replace(match2)>0):
+            if (match1!=None and match2!=None and dot_replace(match2)<30000 and dot_replace(match2)>0.000000001):
                 try:
                     match2 = dot_replace(match2)
                 except:
@@ -165,7 +167,7 @@ def search_in_size(soup, pat):
             match2 = re.findall(pat, str(i))
             if (len(match2)==0):
                 match2 = None
-            if (match1!=None and match2!=None and  match3!=None and dot_replace(match2[0])<10000 and dot_replace(match2[0])>0):
+            if (match1!=None and match2!=None and  match3!=None and dot_replace(match2[0])<10000 and dot_replace(match2[0])>0.000000001):
                 found_param[0] = match2[0]
                 try:
                     if dot_replace(match2[1]) < 10000:
@@ -177,30 +179,18 @@ def search_in_size(soup, pat):
                         found_param[2] = match2[2]
                 except:
                     found_param[2] = None
-                for n in found_param:
-                    try:
-                        if(n!=None):
-                            n = float(dot_replace(n))
-                    except:
-                        if(n!=None):
-                            n = float(n)
+                for n in range(3):
                     if match3!=None:
                         if match3 == 0 and n!=None:
                             try:
-                                n = m_to_cm(float(n))
+                                found_param[n] = m_to_cm(float(found_param[n]))
                             except:
-                                n = n
+                                found_param[n] = found_param[n]
                         elif match3 == 1 and n!=None:
                             try:
-                                n = mm_to_cm(float(n))
+                                found_param[n] = mm_to_cm(float(found_param[n]))
                             except:
-                                n = n
-        for x in found_param:
-            if(match1!=None or match2!=None or match3!=None):
-                print(match1)
-                print(match2)
-                print(match3)
-                print('...')
+                                found_param[n] = found_param[n]
         print(found_param)
         return found_param
 
@@ -437,13 +427,6 @@ def sitesearch (parslink, soup):
 
 
     elif (parslink.find("shop.nag.ru")) != -1:
-        if (parslink.find("shop.nag.ru/catalog/00001.kommutatory/40213.fiksirovannye-kommutatory/64956.snr-s5210x-8f-ups")) != -1:
-            height = search_in_class(soup,"table","headline dense ItemTabProperties_table__sSoeQ product-tab-block__content",0,'[-+]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][-+]?\d+)?',-1)
-            length = search_in_class(soup,"table","headline dense ItemTabProperties_table__sSoeQ product-tab-block__content",0,'[-+]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][-+]?\d+)?',-3)
-            width = search_in_class(soup,"table","headline dense ItemTabProperties_table__sSoeQ product-tab-block__content",0,'[-+]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][-+]?\d+)?',-2)
-            height = mm_to_cm(height)
-            length = mm_to_cm(length)
-            width = mm_to_cm(width)
         if (parslink.find("shop.nag.ru/catalog/31464.komplektuyuschie-dlya-serverov-i-shd/02273.setevye-karty/21363.pe2g4i35l")) != -1:
             length = search_in_class(soup,"div","product-tab-block__content",0,'[-+]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][-+]?\d+)?',22)
             width = search_in_class(soup,"div","product-tab-block__content",0,'[-+]?(?:\d+(?:\,\d*)?|\,\d+)(?:[eE][-+]?\d+)?',24)
@@ -625,7 +608,7 @@ headers = {
    "User-Agent": UserAgent().random #генерация фальшивой мета-информации для избежания обрыва соединения
 }
 
-i=500
+i=0
 good = 0
 bad_site=[]
 s1=[]
@@ -636,8 +619,7 @@ while (i<1000):
     print(UserAgent().random)
     parslink=exl.iloc[i,0]
     #webbrowser.open(parslink)
-    if(i%15==0):
-        getreq(parslink, headers)
+    getreq(parslink, headers)
     print(f"Итерация: {i+1}")
     print(f"Успешно: {good}")
     i = i + 1
